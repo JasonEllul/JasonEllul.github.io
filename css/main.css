@@ -2,7 +2,6 @@ body {
 	margin: 60px auto;
 	width: 70%;
 	font-family:'Helvetica', 'Arial', 'Sans-Serif';
-	
 
 }
 /* navigation bar styling */
@@ -38,6 +37,11 @@ p {
 footer {
 	border-top: 1px solid #d5d5d5;
 	font-size: .8em;
+}
+
+/* div styling */
+.container {
+	color: #333;
 }
 
 /* table style */
