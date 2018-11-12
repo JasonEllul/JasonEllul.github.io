@@ -71,16 +71,6 @@ td, th {
     padding: 8px;
 }
 
-div.me {
-	background-image:url("img/me.jpg");
-	width:138px;
-	height: 138px;
-	background-color: green;
-	border-radius: 50%;
-	box-shadow: 0px 3px 8px 0px rgba(0,0,0,0.2);
-
-}
-
 td span {
 	color:#888;
 	text-align:right;
