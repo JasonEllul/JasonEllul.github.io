@@ -4,6 +4,7 @@ body {
 	font-family:'Helvetica', 'Arial', 'Sans-Serif';
 
 }
+/* navigation bar styling */
 nav ul, footer ul {
 	padding: 0px;
 	list-style: none;
