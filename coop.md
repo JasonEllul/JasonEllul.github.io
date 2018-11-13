@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Theme Styles
+title: Co-op Work Report
 ---
 
 ## Full Style Test

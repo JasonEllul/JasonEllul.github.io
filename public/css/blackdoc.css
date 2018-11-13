@@ -28,12 +28,13 @@ ______ _            _   ______
  */
 
 html {
-  font-family: "PT Sans", Helvetica, Arial, sans-serif;
+  font-family: "Overpass";
+
 }
 
 body {
   color: #848482;
-  background-color: #000000;
+  background-color: #1a1a1a;
 }
 
 h1,
@@ -42,8 +43,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'EB Garamond', serif;
-  color: #aaa;
+  color: #c4c4c4;
 }
 
 h1 a,
@@ -52,27 +52,31 @@ h3 a,
 h4 a,
 h5 a,
 h6 a {
-  font-family: 'EB Garamond', serif;
   color: #50585d;
   font-kerning: auto;
-  font-feature-settings: "kern", "liga", "dlig", "hlig", "cswh";
   font-synthesis: weight style;
 }
 
 a {
-  color: #ffeb99;
+  color: #aaa;
   transition: color ease 0.3s;
 }
 
 a:hover {
-  color: #caad00;
+  color: #33bbff;
+  text-decoration: none;
+}
+
+.social li {
+    display: inline-block;
+    margin: 0 15px;
+    padding: 0;
+    list-style: none outside;
 }
 
 .btn {
   display: inline-block;
   padding: .25rem 1rem;
-  font-family: "PT Sans", sans-serif;
-  color: #ebcb8b;
   border: .1rem solid #32343c;
   border-radius: .1rem;
 }
@@ -116,13 +120,13 @@ hr {
 
 blockquote {
   color: #666;
-  border-left: .25rem solid #333;
+  border-left: .25rem solid #262626;
 }
 
 td,
 th {
   padding: .25rem .5rem;
-  border: 1px solid #333;
+  border: 1px solid #262626;
 }
 
 tbody tr:nth-child(odd) td,
@@ -155,13 +159,13 @@ tbody tr:nth-child(odd) th {
 
 .message {
   color: #bbb;
-  background-color: #333;
+  background-color: #262626;
 }
 
 /* Gist */
 .gist-data {
   background-color: #222 !important;
-  border-bottom: 1px solid #333 !important;
+  border-bottom: 1px solid #262626 !important;
 }
 .gist .markdown-body {
   color: #999 !important;
@@ -172,7 +176,7 @@ tbody tr:nth-child(odd) th {
 }
 
 .gist-file {
-  border: 1px solid #333 !important;
+  border: 1px solid #262626 !important;
 }
 
 .gist-meta {
@@ -189,7 +193,7 @@ tbody tr:nth-child(odd) th {
   text-align: center;
   padding: 2rem 1rem;
   color: rgba(255, 255, 255, .5);
-  background-color: #000;
+  background-color: #262626;
   overflow: auto;
 }
 @media (min-width: 48em) {
@@ -205,14 +209,13 @@ tbody tr:nth-child(odd) th {
 
 /* Sidebar links */
 .sidebar a {
-  color: #caad00;
+  color: #33bbff;
 }
 
 /* About section */
 .sidebar-about h1 {
-  color: #caad00;
+  color: #33bbff;
   margin-top: 0;
-  font-family: 'Noto Serif', serif;
   font-size: 2.25rem;
 }
 
@@ -224,9 +227,11 @@ tbody tr:nth-child(odd) th {
   display: block;
   line-height: 1.75;
 }
-a.sidebar-nav-item:hover,
+a.sidebar-nav-item:hover {
+  color: #99ddff;
+}
 a.sidebar-nav-item:focus {
-  text-decoration: underline;
+  /*text-decoration: underline;*/
 }
 .sidebar-nav-item.active {
   font-weight: bold;
@@ -254,8 +259,8 @@ a.sidebar-nav-item:focus {
  */
 
 .content {
-  padding-top: 4rem;
-  padding-bottom: 4rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
 }
 
 @media (min-width: 48em) {
@@ -284,7 +289,7 @@ a.sidebar-nav-item:focus {
 .page-title,
 .post-title,
 .post-title a {
-  color: #caad00;
+  color: #33bbff;
 }
 
 /*
@@ -401,7 +406,7 @@ a.sidebar-nav-item:focus {
   height: 5px;
 }
 ::-webkit-scrollbar-track {
-  background: #333;
+  background: #262626;
   border: thin solid #111;
   /*box-shadow: 0px 0px 3px #111 inset;*/
   border-radius: 10px;

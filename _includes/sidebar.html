@@ -25,13 +25,19 @@
           {% endif %}
         {% endif %}
       {% endfor %}
-
-      <a class="sidebar-nav-item" href="{{ site.github.repo }}/archive/master.zip">Download</a>
       <hr>
-      <a class="sidebar-nav-item" href="{{ site.github.repo }}">GitHub project</a>
-      <span class="sidebar-nav-item">Currently v{{ site.version }}</span>
+      <ul class="social">
+        <li>
+          <a class="sidebar-nav-item" href="https://www.github.com/JasonEllul"><i class="fa fa-github fa-lg"></i></a>
+        </li>
+        <li>
+          <a class="sidebar-nav-item" href="https://www.linkedin.com/in/jason-ellul-30718114b/"><i class="fa fa-linkedin fa-lg"></i></a>
+        </li>
+        <li>
+          <a class="sidebar-nav-item" href="https://stackoverflow.com/users/10153065/hackerman58888"><i class="fa fa-stack-overflow fa-lg"></i></a>
+        </li>
+      </ul>
     </nav>
-
     <p>&copy; {{ site.time | date: '%Y' }}. All rights reserved.</p>
   </div>
 </div>

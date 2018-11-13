@@ -3,9 +3,9 @@ markdown:         kramdown
 highlighter:      rouge
 
 # Setup
-title:            BlackDoc
-tagline:          Black Theme for Jekyll
-description:      "A two-column black theme with a scrolling sidebar. Ideal for sites requiring a master-detail layout, e.g. documentation, cheatsheets, lyrics, notes..."
+title:            Jason Ellul
+tagline:          Portfolio Site
+description:      "Software Engineering Student & IT Consultant at the University of Guelph"
 url:              https://github.com/karloespiritu/blackdoc
 baseurl:          /
                   # the optional subpath of your site, e.g. "/my-jekyll-site/"
