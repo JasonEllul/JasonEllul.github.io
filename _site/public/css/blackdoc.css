@@ -53,7 +53,7 @@ h4 a,
 h5 a,
 h6 a {
   color: #50585d;
-  /*font-kerning: auto;*/
+  font-kerning: auto;
   font-synthesis: weight style;
 }
 
