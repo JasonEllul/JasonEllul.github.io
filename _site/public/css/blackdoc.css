@@ -67,11 +67,19 @@ a:hover {
   text-decoration: none;
 }
 
-.social li {
-    display: inline-block;
-    margin: 0 15px;
-    padding: 0;
-    list-style: none outside;
+ul.social {
+  padding: 0px;
+  margin: auto;
+  list-style-type: none;
+  width: 100%;
+  text-align: center;
+
+}
+
+li.social {
+  display: inline-block;
+  margin: 0 15px;
+  padding: 0px;
 }
 
 .btn {
