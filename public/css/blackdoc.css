@@ -33,8 +33,8 @@ html {
 }
 
 body {
-  color: #848482;
-  background-color: #1a1a1a;
+  color: #ccc5b9;
+  background-color: #252422;
 }
 
 h1,
@@ -43,7 +43,7 @@ h3,
 h4,
 h5,
 h6 {
-  color: #c4c4c4;
+  color: #fffcf2;
 }
 
 h1 a,
@@ -58,12 +58,12 @@ h6 a {
 }
 
 a {
-  color: #aaa;
+  color: #fffcf2;
   transition: color ease 0.3s;
 }
 
 a:hover {
-  color: #33bbff;
+  color: #FFC72A;
   text-decoration: none;
 }
 
@@ -200,8 +200,8 @@ tbody tr:nth-child(odd) th {
 .sidebar {
   text-align: center;
   padding: 2rem 1rem;
-  color: rgba(255, 255, 255, .5);
-  background-color: #262626;
+  color: #ccc5b9;
+  background-color: #C20430;
   overflow: auto;
 }
 @media (min-width: 48em) {
@@ -217,12 +217,12 @@ tbody tr:nth-child(odd) th {
 
 /* Sidebar links */
 .sidebar a {
-  color: #33bbff;
+  color: #fffcf2;
 }
 
 /* About section */
 .sidebar-about h1 {
-  color: #33bbff;
+  color: #6184d8;
   margin-top: 0;
   font-size: 2.25rem;
 }
@@ -236,7 +236,7 @@ tbody tr:nth-child(odd) th {
   line-height: 1.75;
 }
 a.sidebar-nav-item:hover {
-  color: #99ddff;
+  color: #fffcf2;
 }
 a.sidebar-nav-item:focus {
   /*text-decoration: underline;*/
@@ -297,7 +297,7 @@ a.sidebar-nav-item:focus {
 .page-title,
 .post-title,
 .post-title a {
-  color: #33bbff;
+  color: #FFC72A;
 }
 
 /*
