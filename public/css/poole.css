@@ -261,9 +261,13 @@ tbody tr:nth-child(odd) th {
 
 .lead {
   font-size: 1.25rem;
-  font-weight: 100;
+  font-weight: 150;
   font-family: 'Roboto', sans-serif;
-
+}
+@media (min-width: 48em) {
+  .lead {
+    font-weight: 100;
+  }
 }
 
 
