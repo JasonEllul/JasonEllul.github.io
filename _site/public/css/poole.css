@@ -261,14 +261,8 @@ tbody tr:nth-child(odd) th {
 
 .lead {
   font-size: 1.25rem;
-  font-weight: 100;
-  font-family: 'Roboto', sans-serif;
-}
-@media only screen and (max-width: 640px) {
-  .lead {
-    font-weight: 150;
-    font-family: 'Roboto', sans-serif;
-  }
+  font-weight: 150;
+  font-family: 'Roboto-150', sans-serif;
 }
 
 
