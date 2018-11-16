@@ -29,7 +29,6 @@ ______ _            _   ______
 
 html {
   font-family: "Overpass";
-
 }
 
 body {
@@ -127,8 +126,8 @@ hr {
 }
 
 blockquote {
-  color: #666;
-  border-left: .25rem solid #262626;
+  color: #a39d94;
+  border-left: .25rem solid #403d39;
 }
 
 td,
@@ -166,8 +165,8 @@ tbody tr:nth-child(odd) th {
  */
 
 .message {
-  color: #bbb;
-  background-color: #262626;
+  color: #a39d94;
+  background-color: #21201e;
 }
 
 /* Gist */
@@ -236,7 +235,7 @@ tbody tr:nth-child(odd) th {
   line-height: 1.75;
 }
 a.sidebar-nav-item:hover {
-  color: #fffcf2;
+  color: #ccc5b9;
 }
 a.sidebar-nav-item:focus {
   /*text-decoration: underline;*/
