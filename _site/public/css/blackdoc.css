@@ -34,6 +34,8 @@ html {
 body {
   color: #ccc5b9;
   background-color: #252422;
+  background-image: radial-gradient(ellipse at bottom, #1B2735 0%, #090A0F 100%);
+
 }
 
 h1,
@@ -167,7 +169,7 @@ tbody tr:nth-child(odd) th {
 
 .message {
   color: #a39d94;
-  background-color: #21201e;
+  background-color: #090A0F;
 }
 
 /* Gist */
@@ -201,7 +203,9 @@ tbody tr:nth-child(odd) th {
   text-align: center;
   padding: 2rem 1rem;
   color: #ccc5b9;
-  background-color: #C20430;
+  background-color: #252422;
+      background-image: linear-gradient(#0F2027, #2C5364);
+
   overflow: auto;
 }
 @media (min-width: 48em) {
@@ -210,7 +214,7 @@ tbody tr:nth-child(odd) th {
     top: 0;
     left: 0;
     bottom: 0;
-    width: 18rem;
+    width: 16rem;
     text-align: left;
   }
 }
@@ -274,14 +278,14 @@ a.sidebar-nav-item:focus {
 @media (min-width: 48em) {
   .content {
     max-width: 95%;
-    margin-left: 18rem;
+    margin-left: 16rem;
     margin-right: 0rem;
   }
 }
 
 @media (min-width: 64em) {
   .content {
-    margin-left: 18rem;
+    margin-left: 16rem;
     margin-right: 0rem;
   }
 }
