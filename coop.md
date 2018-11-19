@@ -29,12 +29,13 @@ Prior to starting my work at CCS, I didn't have much experience with drafting an
 
 #### Leadership
 
+
+
 talk posively about yourself ; people would often come to me for assistance with difficult issues when Jill wasn't around. took inititive to tackle tougher projects first so that you were able to teach others
 
 #### Problem Solving
 
-I was expected to provide expertise to University clients reguarding a wide variety of problems
-
+At CCS I was expected to provide expertise to University clients reguarding a wide variety of services that were regularly changing. It almost seemed as if no two requests or issues were the same. I required problem solving skills in order to understand an issue that I have never heard of, and be able to work through it to find a workaround or a solution. I made it a personal goal early on in the work term to hone my problem solving skills so that any tougher issues in the future would be easier to solve. I improved my problem solving skills by trying to work through a client's issue myself as much as I could before needing to ask any managers for advice. Doing this I discovered that the biggest flaw in my problem solving skills is my confidence in the solution. I found that most of the time I wasn't asking my superiors for help finding the solution, I was asking if my proposed solution was the correct one. After I noticed this my problem solving skills drastically improved since I was able to stop worrying if I was wrong and focus on solving difficult issues with confidence. This skill will prove useful in future co-op work placements since problem solving is a crucial skill in either IT support or development. 
 
 ### Job Description
 

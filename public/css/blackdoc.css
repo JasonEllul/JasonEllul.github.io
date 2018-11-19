@@ -251,7 +251,7 @@ a.sidebar-nav-item:hover {
   color: #ccc5b9;
 }
 a.sidebar-nav-item:focus {
-  
+
 }
 .sidebar-nav-item.active {
   font-weight: bold;
@@ -283,7 +283,7 @@ a.sidebar-nav-item:focus {
   padding-bottom: 2rem;
   background-color: #1B2735;
   background-image: radial-gradient(ellipse at bottom, #1B2735 0%, #090A0F 100%);
-  min-height: 28rem;
+  min-height: 66.6vh;
 }
 
 @media (min-width: 48em) {
