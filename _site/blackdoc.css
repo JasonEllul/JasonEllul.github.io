@@ -32,8 +32,8 @@ html {
 }
 
 body {
-  color: #515151;
-  background-color: #fff;;
+  color: #ccc5b9;
+  background-color: #0d131a;
 
 }
 
@@ -51,9 +51,7 @@ h3,
 h4,
 h5,
 h6 {
-  color: #313131;
-  font-family: Roboto, "Overpass", Arial, sans-serif;
-  
+  color: #fffcf2;
 }
 
 h1 a,
@@ -62,21 +60,19 @@ h3 a,
 h4 a,
 h5 a,
 h6 a {
-  color: #313131;
+  color: #50585d;
   font-kerning: auto;
   font-synthesis: weight style;
-  font-family: "Overpass";
-
 }
 
 a {
-  color: #268bd2;
+  color: #fffcf2;
   transition: color ease 0.3s;
 
 }
 
 a:hover {
-  color: #268bd2;
+  color: #FFC72A;
   text-decoration: none;
 }
 
@@ -111,7 +107,7 @@ li.social {
 
 strong,
 b {
-  color: #515151;
+  color: #ccc5b9;
   font-weight: bolder;
 }
 /* Code */
@@ -132,16 +128,17 @@ pre {
 }
 
 hr {
-  position: relative;
-  margin: 1.5rem 0;
+  display: block;
+  height: 1px;
   border: 0;
-  border-top: 1px solid #eee;
-  border-bottom: 1px solid #fff;
+  border-top: rgba(235, 242, 246, 0.29) 1px solid;
+  margin: 1.2em 0;
+  padding: 0;
 }
 
 blockquote {
-  color: #7a7a7a;
-  border-left: .25rem solid #e5e5e5;
+  color: #a39d94;
+  border-left: .25rem solid #403d39;
 }
 
 td,
@@ -179,8 +176,8 @@ tbody tr:nth-child(odd) th {
  */
 
 .message {
-  color: #717171;
-  background-color: #f9f9f9;
+  color: #a39d94;
+  background-color: #090A0F;
 }
 
 /* Gist */
@@ -214,7 +211,7 @@ tbody tr:nth-child(odd) th {
   text-align: center;
   padding: 2rem 1rem;
   color: #ccc5b9;
-  background-color: #202020;
+  background-color: #252422;
   background-image: linear-gradient(#0F2027, #2C5364);
   overflow: auto;
 }
@@ -283,6 +280,8 @@ a.sidebar-nav-item:focus {
 .content {
   padding-top: 2rem;
   padding-bottom: 2rem;
+  background-color: #1B2735;
+  background-image: radial-gradient(ellipse at bottom, #1B2735 0%, #090A0F 100%);
   min-height: 66.6vh;
 }
 
@@ -312,7 +311,7 @@ a.sidebar-nav-item:focus {
 .page-title,
 .post-title,
 .post-title a {
-  color: #303030;
+  color: #FFC72A;
 }
 
 /*
