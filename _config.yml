@@ -3,7 +3,7 @@ markdown:         kramdown
 highlighter:      rouge
 
 # Setup
-title:            Jason Ellul
+title:            jason ellul
 tagline:          Portfolio Site
 description:      "Software Engineering Student & IT Consultant at the University of Guelph"
 url:              https://github.com/JasonEllul/jasonellul.github.io
