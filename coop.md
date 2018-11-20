@@ -28,7 +28,10 @@ On top of providing the core IT resources required by any substantial insitution
 
 Prior to starting my work at CCS, I didn't have much experience with drafting and responding to emails containing technical information. I quickly learned how difficult it can sometimes be to effectively communicate technical information to clients, as they all have varying nomenclature and experience with computers. I made it one of my personal goals to improve my written communication skills to ensure that I was completely and thoroughly understanding of each client's request or issue, and that they were understanding my response. I believe that I accomplished this goal early in the work term from the constant experience I was gaining by responding to clients and writing technical emails to other CCS teams. I was able to communicate better and had a noticible decrease in the amount of "back and forth" between me and a specific client.  This will surely be useful in future work terms since using written communication to convey technical information is a part of any job in computer science. 
 
-(pic of FP)
+
+<a href="https://www.footprintsservicedesk.com">![FootPrints Software which I used to respond to clients](https://raw.githubusercontent.com/JasonEllul/JasonEllul.github.io/master/public/images/FP_Screencap.png){:class="banner"}</a>
+<center><a href="https://www.footprintsservicedesk.com">FootPrints</a> software which I used to communicate with clients</center>
+<br>
 
 #### Leadership
 
