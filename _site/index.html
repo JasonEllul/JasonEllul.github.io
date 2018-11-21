@@ -19,7 +19,7 @@
   <link rel="stylesheet"
       href="https://fonts.googleapis.com/css?family=Overpass">
   <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
-  
+
   <!-- icons -->
   <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
 
@@ -27,6 +27,7 @@
   <link rel="stylesheet" href="/public/css/poole.css">
   <link rel="stylesheet" href="/public/css/syntax.css">
   <link rel="stylesheet" href="/public/css/blackdoc.css">
+  <link rel="stylesheet" href="/public/css/boxes.css">
 
   <!-- Icons -->
   <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/public/apple-touch-icon-144-precomposed.png">
@@ -118,16 +119,68 @@
 Hi there! My name is Jason Ellul - I am a software engineering student and an IT Consultant at the University of Guelph, located in Guelph, Ontario. I am currently in my third year of university, and I am always looking for new opportunities to <i>develop</i> my passion for programming and design both inside and outside of school. Feel free to <a>contact me</a> about any inquiries you may have!
 </p>
 
-<h2 id="about-blackdoc-theme">About This Site</h2>
+<!-- grid -->
+<div id="grid" class="row flex-grid">
+      <article class="box-item post-red" itemscope="itemscope" itemtype="http://schema.org/BlogPosting" itemprop="blogPost">
 
-<p>Some relevant information you can find on the pages of this website:</p>
+          <div class="box-body">
+              <a class="post-link" href="/about">
+                  <h2 class="post-title" itemprop="name">
+                      About Me
+                  </h2>
+              </a>
+              <a class="post-link" href="/about">
+                  <p class="description">Get to know me personally. A profile of my interests, hobbies, and goals.</p>
+              </a>
+              <div class="tags">
+                  <a href="/about">about</a>
+                  <a href="/about">personal</a>
+                  <a href="/about">misc</a>
 
-<ul>
-  <li><a href="../about">Get to know me personally. A profile of my interests, hobbies, and goals.</a></li>
-  <li><a href="../resume">A summary of my skills, recent employment history, and achievements.</a></li>
-  <li><a href="../projects">Projects I've worked on throughout my 7 years of experience in software development.</a></li>
-  <li><a href="../coop">Bachelor of Computing Co-op Work Term Reports.</a></li>
-</ul>
+              </div>
+          </div>
+      </article>
+      <article class="box-item post-green" itemscope="itemscope" itemtype="http://schema.org/BlogPosting" itemprop="blogPost">
+
+          <div class="box-body">
+              <a class="post-link" href="/resume">
+                  <h2 class="post-title" itemprop="name">
+                      Resume
+                  </h2>
+              </a>
+              <a class="post-link" href="/resume">
+                  <p class="description">A summary of my skills, recent employment history, and achievements.</p>
+              </a>
+              <div class="tags">
+                  <a href="/resume">experience</a>
+                  <a href="/resume">skills</a>
+                  <a href="/resume">awards</a>
+
+              </div>
+          </div>
+      </article>
+      <article class="box-item post-orange" itemscope="itemscope" itemtype="http://schema.org/BlogPosting" itemprop="blogPost">
+          <span class="ribbon">
+              <a href="/projects"><span>Swift</span></a>
+          </span>
+          <div class="box-body">
+              <a class="post-link" href="/projects">
+                  <h2 class="post-title" itemprop="name">
+                      Motive
+                  </h2>
+              </a>
+              <a class="post-link" href="/projects">
+                  <p class="description">Motive is a map-based social network I created where users can ... coming soon exclusively to iOS.</p>
+              </a>
+              <div class="tags">
+                  <a href="/projects">swift</a>
+                  <a href="/projects">node.js</a>
+                  <a href="/projects">firebase</a>
+                  <a href="/projects">mapbox</a>
+              </div>
+          </div>
+      </article>
+  </div>
 
 <!--<div class="posts">
   

@@ -7,16 +7,68 @@ title: Home
 Hi there! My name is Jason Ellul - I am a software engineering student and an IT Consultant at the University of Guelph, located in Guelph, Ontario. I am currently in my third year of university, and I am always looking for new opportunities to <i>develop</i> my passion for programming and design both inside and outside of school. Feel free to <a>contact me</a> about any inquiries you may have!
 </p>
 
-<h2 id="about-blackdoc-theme">About This Site</h2>
+<!-- grid -->
+<div id="grid" class="row flex-grid">
+      <article class="box-item post-red" itemscope="itemscope" itemtype="http://schema.org/BlogPosting" itemprop="blogPost">
 
-<p>Some relevant information you can find on the pages of this website:</p>
+          <div class="box-body">
+              <a class="post-link" href="{{ site.baseurl | remove_first: '/'}}/about">
+                  <h2 class="post-title" itemprop="name">
+                      About Me
+                  </h2>
+              </a>
+              <a class="post-link" href="{{ site.baseurl | remove_first: '/'}}/about">
+                  <p class="description">Get to know me personally. A profile of my interests, hobbies, and goals.</p>
+              </a>
+              <div class="tags">
+                  <a href="{{ site.baseurl | remove_first: '/'}}/about">about</a>
+                  <a href="{{ site.baseurl | remove_first: '/'}}/about">personal</a>
+                  <a href="{{ site.baseurl | remove_first: '/'}}/about">misc</a>
 
-<ul>
-  <li><a href="../about">Get to know me personally. A profile of my interests, hobbies, and goals.</a></li>
-  <li><a href="../resume">A summary of my skills, recent employment history, and achievements.</a></li>
-  <li><a href="../projects">Projects I've worked on throughout my 7 years of experience in software development.</a></li>
-  <li><a href="../coop">Bachelor of Computing Co-op Work Term Reports.</a></li>
-</ul>
+              </div>
+          </div>
+      </article>
+      <article class="box-item post-green" itemscope="itemscope" itemtype="http://schema.org/BlogPosting" itemprop="blogPost">
+
+          <div class="box-body">
+              <a class="post-link" href="{{ site.baseurl | remove_first: '/'}}/resume">
+                  <h2 class="post-title" itemprop="name">
+                      Resume
+                  </h2>
+              </a>
+              <a class="post-link" href="{{ site.baseurl | remove_first: '/'}}/resume">
+                  <p class="description">A summary of my skills, recent employment history, and achievements.</p>
+              </a>
+              <div class="tags">
+                  <a href="{{ site.baseurl | remove_first: '/'}}/resume">experience</a>
+                  <a href="{{ site.baseurl | remove_first: '/'}}/resume">skills</a>
+                  <a href="{{ site.baseurl | remove_first: '/'}}/resume">awards</a>
+
+              </div>
+          </div>
+      </article>
+      <article class="box-item post-orange" itemscope="itemscope" itemtype="http://schema.org/BlogPosting" itemprop="blogPost">
+          <span class="ribbon">
+              <a href="{{ site.baseurl | remove_first: '/'}}/projects"><span>Swift</span></a>
+          </span>
+          <div class="box-body">
+              <a class="post-link" href="{{ site.baseurl | remove_first: '/'}}/projects">
+                  <h2 class="post-title" itemprop="name">
+                      Motive
+                  </h2>
+              </a>
+              <a class="post-link" href="{{ site.baseurl | remove_first: '/'}}/projects">
+                  <p class="description">Motive is a map-based social network I created where users can ... coming soon exclusively to iOS.</p>
+              </a>
+              <div class="tags">
+                  <a href="{{ site.baseurl | remove_first: '/'}}/projects">swift</a>
+                  <a href="{{ site.baseurl | remove_first: '/'}}/projects">node.js</a>
+                  <a href="{{ site.baseurl | remove_first: '/'}}/projects">firebase</a>
+                  <a href="{{ site.baseurl | remove_first: '/'}}/projects">mapbox</a>
+              </div>
+          </div>
+      </article>
+  </div>
 
 <!--<div class="posts">
   {% for post in paginator.posts %}
