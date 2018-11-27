@@ -273,7 +273,7 @@ tbody tr:nth-child(odd) th {
  * or to a parent if there are multiple elements to show.
  */
 
-.message {
+.message, .bluemessage {
   margin-bottom: 1rem;
   padding: 1rem;
   color: #717171;
@@ -332,7 +332,7 @@ tbody tr:nth-child(odd) th {
 
 .page,
 .post {
-  margin-bottom: 4em;
+  /* margin-bottom: 4em; */
 }
 
 /* Blog post or page title */
