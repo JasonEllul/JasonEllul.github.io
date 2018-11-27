@@ -317,6 +317,8 @@ a.sidebar-nav-item:focus {
 .content {
   padding-top: 2rem;
   padding-bottom: 1rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
   min-height: 100vh;
 }
 
@@ -454,25 +456,3 @@ a.sidebar-nav-item:focus {
   color: #8f5536;
 }
 
-/* Thin Scrollbar */
-::-webkit-scrollbar {
-  width: 8px;
-}
-::-webkit-scrollbar-button {
-  width: 8px;
-  height: 5px;
-}
-::-webkit-scrollbar-track {
-  background: #fff;
-  border: thin solid #fff;
-  /*box-shadow: 0px 0px 3px #111 inset;*/
-  border-radius: 10px;
-}
-::-webkit-scrollbar-thumb {
-  background: #717171;
-  border: thin solid #717171;
-  border-radius: 10px;
-}
-::-webkit-scrollbar-thumb:hover {
-  background: #7d7d7d;
-}
