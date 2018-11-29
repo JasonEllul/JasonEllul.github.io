@@ -3,16 +3,11 @@ layout: page
 title: About Me
 ---
 
-<p class="message">
-  Hi there! This page is included as an example. Feel free to customize it for your own use upon downloading. Carry on!
-</p>
 
-## About BlackDoc Theme
-
-Some relevant information about this project:
-
-* Built for [Jekyll](http://jekyllrb.com)
-* Theme based on [Poole](http://getpoole.com), the Jekyll butler, and the [Hyde](http://hyde.getpoole.com) theme
-* Ideal for sites requiring master-detail layout such as documentation, cheatsheets, lyrics, notes, etc.
-* Need a beautiful color scheme for black background? Then you will love BlackDoc theme.
-
+<div class="uk-card uk-card-default uk-card-small uk-card-body">
+    <h3 class="uk-card-title">Hi there!</h3>
+    <p>If you haven't figured it out yet - my name is Jason Ellul. I am currently in my third year of persuing an Honours Bachelor of Computing from the University of Guelph, majoring in Software Engineering. I also work at the University's IT department, CCS, as an IT Consultant. This job requires me to closely work with other CCS teams to ensure that the technical requirements of University clients are being met. I love this job as I am constantly meeting and interacting with different people, as well as getting hands-on experience with all of the technologies in the University IT Core. My favorite aspect of software engineering is that the sky is the limit - virtually anything can be created through teamwork, programming, and design.</p>
+    <div class="uk-card-media-bottom">
+        <img src="https://raw.githubusercontent.com/JasonEllul/JasonEllul.github.io/master/public/images/server_racks.JPG" alt="Picture of me.">
+    </div>    
+</div>

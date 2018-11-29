@@ -52,6 +52,10 @@ article {
 .box-item a {
 	text-decoration: none;
 }
+.box-item a:hover {
+	text-decoration: none;
+
+}
 
 .box-item a:hover .box-item {
 	box-shadow: 10px 10px 10px #eee
@@ -699,6 +703,7 @@ article {
 	color: #994c00;
 	border-bottom: 1px solid #994c00;
 	background: #fff
+
 }
 
 .post-list .entry-date {
