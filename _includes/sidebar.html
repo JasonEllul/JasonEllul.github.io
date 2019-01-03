@@ -10,21 +10,11 @@
     </div>
 
     <nav class="sidebar-nav">
-      <a class="sidebar-nav-item{% if page.url == site.baseurl %} active{% endif %}" href="https://jasonellul.github.io">Home</a>
-
-      {% comment %}
-        The code below dynamically generates a sidebar nav of pages with
-        `layout: page` in the front-matter. See readme for usage.
-      {% endcomment %}
-
-      {% assign pages_list = site.pages %}
-      {% for node in pages_list %}
-        {% if node.title != null %}
-          {% if node.layout == "page" %}
-            <a class="sidebar-nav-item{% if page.url == node.url %} active{% endif %}" href="{{ site.baseurl }}{{ node.url  | remove_first: '/' }}" rel="grow">{{ node.title }}</a>
-          {% endif %}
-        {% endif %}
-      {% endfor %}
+      <a class="sidebar-nav-item{% if page.url == site.baseurl %} active{% endif %}" href="{{ site.baseurl }}">Home</a>
+      <a class="sidebar-nav-item" href="https://jasonellul.github.io/about" rel="grow">{{ About Me }}</a>
+      <a class="sidebar-nav-item{% if page.url == '/about.html' %} active{% endif %}" href="{{ site.baseurl }}{{ '/about' | remove_first: '/' }}" rel="grow">About Me</a>
+      <a class="sidebar-nav-item{% if page.url == '/resume.html' %} active{% endif %}" href="{{ site.baseurl }}{{ '/resume' | remove_first: '/' }}" rel="grow">Resume</a>
+      <a class="sidebar-nav-item{% if page.url == '/projects.html' %} active{% endif %}" href="{{ site.baseurl }}{{ '/projects' | remove_first: '/' }}" rel="grow">Projects</a>
       <hr class="hr-sidebar">
       <ul class="social">
         <li class="social">
