@@ -51,6 +51,13 @@ img.half {
 img.banner {
   width: 90%;
 }
+img.notrounded {
+  border-radius: 0px;
+}
+p.paddington {
+  padding-left: 4%;
+  padding-right: 4%;
+}
 
 
 h1,
