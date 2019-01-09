@@ -48,6 +48,9 @@ img {
 img.half {
   width: 65%;
 }
+img.reducedWidth {
+  width: 30%;
+}
 img.banner {
   width: 90%;
 }
