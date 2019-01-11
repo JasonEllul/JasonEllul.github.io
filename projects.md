@@ -38,11 +38,11 @@ I began by sketching out what the app would look like and creating the branding.
 
 <img class="notrounded half" src="https://raw.githubusercontent.com/JasonEllul/JasonEllul.github.io/master/public/images/motive_map_compare.png" alt="Motive Design Iterations">
 
-<center><p class="paddington">The home map view after many usability tests and visual overhauls.</p></center>
+<center><p class="paddington">The home map view after many usability tests and visual overhauls. The home map view originally used the native iOS MapKit and the annotations to represent posts were non-customizable flags. I changed the map to MapBox because the actual map tiles looked much more aesthetically pleasing and because iOS MapKit did not contain the map camera/ fly functionality I needed for the home map to animate smoothly. </p></center>
 <br>
 
 <img class="notrounded half" src="https://raw.githubusercontent.com/JasonEllul/JasonEllul.github.io/master/public/images/motive_profile_compare.png" alt="Motive Design Iterations">
-<center><p class="paddington">The profile view after a few design iterations.</p></center>
+<center><p class="paddington">The profile view after a few design iterations. I took inspiration from Twitter's profile view for the segmented control styling and the top banner layout. </p></center>
 <br>
 <p class="paddington"><br>Motive is coming to the exclusively on the Apple App Store in 2019. It is currently in open beta and you can download the app onto any iOS device <a href="https://testflight.apple.com/join/bNDtFSKZ">here</a>.</p>
 
