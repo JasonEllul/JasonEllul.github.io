@@ -57,7 +57,7 @@ img.banner {
 img.notrounded {
   border-radius: 0px;
 }
-p.paddington {
+.paddington {
   padding-left: 4%;
   padding-right: 4%;
 }
