@@ -38,12 +38,12 @@ I began by sketching out what the app would look like and creating the branding.
 
 <img class="notrounded half" src="https://raw.githubusercontent.com/JasonEllul/JasonEllul.github.io/master/public/images/motive_map_compare.png" alt="Motive Design Iterations">
 
-<center><p class="paddington">The home map view after many usability tests and visual overhauls. The home map view originally used the native iOS MapKit and the annotations to represent posts were non-customizable flags. I changed the map to MapBox because the actual map tiles looked much more aesthetically pleasing and because iOS MapKit did not contain the map camera/ fly functionality I needed for the home map to animate smoothly. </p></center>
+<center><p class="paddington">The home map view after many usability tests and visual overhauls. The home map view originally used the native iOS MapKit and the annotations to represent posts were non-customizable flags. I changed the map to MapBox because the map tiles looked much more aesthetically pleasing and because iOS MapKit did not contain the map camera/ fly functionality I needed for the home map to animate smoothly. Usability testing the previous version of the app determined that I should simplify the tabs of my tab bar controller. I compensated for this by adding a sliding sidebar menu that contains paths to all of the features accessible from the removed tabs.</p></center>
 <br>
 
 <img class="notrounded half" src="https://raw.githubusercontent.com/JasonEllul/JasonEllul.github.io/master/public/images/motive_profile_compare.png" alt="Motive Design Iterations">
-<center><p class="paddington">The profile view after a few design iterations. I took inspiration from Twitter's profile view for the segmented control styling and the top banner layout. </p></center>
-<br>
+<center><p class="paddington">The profile view after a few design iterations. I took inspiration from Twitter's profile view for the segmented control styling and the top banner layout. Motive originally had a friend request system, but I changed this to a follower/ following system because this made a lot more sense for how you would use the app. Think about it, it would be much more preferrable to simply just follow someone rather than wait for them to accept your friend request. This becomes especially true when you consider accounts owned by an organization, or accounts that would post where things like sales are. The only upside of a friend request system would be more user privacy and permissions, so I set up an optional privacy system where users can change their settings so that they first need to approve anyone that follows them.</p></center>
+
 <p class="paddington"><br>Motive is coming to the exclusively on the Apple App Store in 2019. It is currently in open beta and you can download the app onto any iOS device <a href="https://testflight.apple.com/join/bNDtFSKZ">here</a>.</p>
 
 
