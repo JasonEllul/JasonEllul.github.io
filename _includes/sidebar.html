@@ -11,7 +11,7 @@
 
     <nav class="sidebar-nav">
       <a class="sidebar-nav-item{% if page.url == '/' %} active{% endif %}" href=" {{ site.url }} ">Home</a>
-      <a class="sidebar-nav-item" href="https://jasonellul.github.io/about" rel="grow">{{ About Me }}</a>
+
       <a class="sidebar-nav-item{% if page.url == '/about.html' %} active{% endif %}" href="{{ site.baseurl }}{{ '/about' | remove_first: '/' }}" rel="grow">About Me</a>
       <a class="sidebar-nav-item{% if page.url == '/resume.html' %} active{% endif %}" href="{{ site.baseurl }}{{ '/resume' | remove_first: '/' }}" rel="grow">Resume</a>
       <a class="sidebar-nav-item{% if page.url == '/projects.html' %} active{% endif %}" href="{{ site.baseurl }}{{ '/projects' | remove_first: '/' }}" rel="grow">Projects</a>
